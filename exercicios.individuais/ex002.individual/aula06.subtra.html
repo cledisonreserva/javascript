@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Conhecimento</title>
+</head>
+<body>
+    <h1>Oi</h1>
+    <script>
+        window.alert("Oi!, Vamos subtrair a idade do seu avô com a do seu pai!");
+
+        var nome_pai = window.prompt("Qual o nome do seu pai?");
+        window.alert(`${nome_pai} é um nome muito bonito.`);
+
+        var idade_pai = Number(window.prompt(`Qual a idade do senhor ${nome_pai}?`));
+
+        var nome_vovo = window.prompt("E qual é o nome do seu avô?");
+        window.alert(`${nome_vovo} também é um nome muito bonito.`);
+
+        var idade_vovo = Number(window.prompt(`Qual a idade do senhor ${nome_vovo} ? `));
+
+        subtracao = idade_vovo - idade_pai;
+
+        window.alert(`A  idade do seu avô subtraida pela do seu pai é ${subtracao}.`);
+
+
+    </script>
+</body>
+</html>

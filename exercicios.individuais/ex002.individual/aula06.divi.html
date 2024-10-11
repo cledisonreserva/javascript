@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Conhecimento</title>
+</head>
+<body>
+    <script>
+        window.alert("Oi!, Vamos dividir a idade da sua avó com a idade da sua mãe!");
+
+        var nome_vovo = window.prompt("Vamos começar pelos mais velhos, Qual o nome da sua avó?");
+        window.alert(`${nome_vovo} é um nome incrível.`);
+
+        let idade_vovo = Number(window.prompt(`E qual a idade da senhora ${nome_vovo}?`));
+
+        var nome_mae = window.prompt("Qual o nome da sua genitora?");
+        window.alert(`${nome_mae} é um nome raro, sua avó teve um bom gosto na hora de escolher o nome da sua mãe.`)
+
+        var idade_mae = Number(window.prompt("E quantos aninhos tem sua mãe?"));
+
+        divisao = idade_vovo / idade_mae;
+
+        window.alert(`A idade da sua avó dividída pela idade da sua mãe é ${divisao}.`)
+    </script>
+</body>
+</html>
